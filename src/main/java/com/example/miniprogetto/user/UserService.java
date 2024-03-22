@@ -44,7 +44,7 @@ public class UserService {
                 .orElseThrow(()-> new IllegalStateException("La user con il seguente id "+userId+" da aggiornare, non è più valido"));
         if (username != null &&
             !username.isEmpty() &&
-            !Objects.equals(user.getUserName(), username)){
+            !Objects.equals(user.getUsername(), username)){
             user.setUserName(username);
         }
 

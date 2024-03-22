@@ -8,7 +8,7 @@ import java.util.List;
 
 @Configuration
 public class UserCongig {
-    @Bean
+    /*@Bean
     CommandLineRunner commandLineRunner(UserRepository repository){
         return args -> {
             User ciro = new User(
@@ -24,5 +24,5 @@ public class UserCongig {
 
             repository.saveAll(List.of(ciro,katia));
         };
-    }
+    }*/
 }
